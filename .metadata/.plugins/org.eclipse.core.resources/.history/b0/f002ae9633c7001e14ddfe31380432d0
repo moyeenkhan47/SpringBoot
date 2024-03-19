@@ -1,0 +1,15 @@
+package com.employee.add.feign;
+
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+public interface EmployeeAddressClient {
+	(name = "employee-service", url = "http://localhost:8082/employees/1")
+	public interface EmployeeServiceClient {
+		
+		  @GetMapping("/employees/{id}")
+		    String getEmpById(@RequestParam("id") int id);
+
+
+}

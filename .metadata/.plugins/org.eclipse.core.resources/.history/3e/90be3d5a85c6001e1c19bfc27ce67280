@@ -1,0 +1,6 @@
+package com.employee.add.feign;
+
+public interface EmployeeServiceClient {
+	
+
+}

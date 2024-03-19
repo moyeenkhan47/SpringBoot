@@ -1,0 +1,5 @@
+package com.employee.add.feign;
+
+public interface EmployeeAddressClient {
+
+}
