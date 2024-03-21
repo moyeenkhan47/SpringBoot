@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="com.product.tech.dto.ProductRequest"/>
     <fullyQualifiedTypeName name="com.product.tech.repository.ProductRepository1"/>
     <fullyQualifiedTypeName name="com.product.tech.repository.ProductRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="com.product.tech.dto.ProductResponse"/>
     <fullyQualifiedTypeName name="com.product.tech.model.Product"/>
     <fullyQualifiedTypeName name="com.product.tech.service.ProductService"/>
@@ -29,7 +28,6 @@
     <fullyQualifiedTypeName name="java.math.BigDecimal"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="org.springframework.data.repository.query.parser.Part.IgnoreCaseType"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="com.product.service.repository.ProductRepository"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 </qualifiedTypeNameHistroy>

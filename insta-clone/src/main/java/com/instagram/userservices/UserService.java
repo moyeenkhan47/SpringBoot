@@ -2,6 +2,7 @@ package com.instagram.userservices;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import com.instagram.serviceinterface.UserServiceInterface;
 import com.instagram.userdto.UserRegistrationDTO;
@@ -30,5 +31,6 @@ public class UserService  implements UserServiceInterface{
 		}
 		return null;
 	}
+	
 
 }
