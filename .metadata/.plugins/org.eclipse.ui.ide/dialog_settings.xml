@@ -48,6 +48,17 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\springboot\micro-sb\ServiceRegistry\ServiceRegistry"/>
+			<item value="E:\springboot\micro-sb\QuestionService\QuestionService"/>
+			<item value="E:\springboot\micro-sb\QuizService\QuizService"/>
+			<item value="E:\springboot\micro-sb\ApiGateway\ApiGateway"/>
+			<item value="C:\Users\dell\Desktop\micro-sb\ApiGateway\ApiGateway"/>
+			<item value="C:\Users\dell\Desktop\micro-sb\ServiceRegistry\ServiceRegistry"/>
+			<item value="C:\Users\dell\Desktop\micro-sb\QuestionService\QuestionService"/>
+			<item value="C:\Users\dell\Desktop\micro-sb\QuizService\QuizService"/>
+			<item value="C:\Users\dell\Desktop\micro-sb\QuestionService"/>
+			<item value="C:\Users\dell\Desktop\micro-sb\QuizService"/>
+			<item value="C:\Users\dell\Desktop\micro-sb"/>
 			<item value="E:\springboot\product_service"/>
 			<item value="E:\springboot\Product_Order"/>
 			<item value="E:\Microservices-parent\Product_Order"/>

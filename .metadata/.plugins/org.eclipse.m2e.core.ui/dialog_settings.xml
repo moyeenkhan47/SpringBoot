@@ -58,8 +58,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.question"/>
 		</list>
 		<list key="groupId">
+			<item value="com.question"/>
 		</list>
 		<list key="artifactId">
 		</list>
@@ -77,18 +79,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="product"/>
-			<item value="microservices"/>
+			<item value="com.question"/>
 		</list>
 		<list key="name">
-			<item value="product-service"/>
-			<item value="product_order"/>
-			<item value="microservices_parent"/>
 		</list>
 		<list key="artifactId">
-			<item value="product_service"/>
-			<item value="microservices_parent"/>
-			<item value="product_order"/>
+			<item value="QuestionService"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -100,6 +96,18 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
 		</list>
 	</section>
 </section>

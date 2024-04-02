@@ -1,6 +1,8 @@
 eclipse.preferences.version=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.actuator=1
-org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-feign=3
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-eureka=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-feign=5
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-loadbalancer=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=12
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=11
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.lombok=9

@@ -5,6 +5,7 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
+import org.springframework.web.reactive.function.client.WebClient;
 
 import com.product.order.dto.OrderLineItemsDto;
 import com.product.order.dto.OrderRequest;
@@ -19,6 +20,7 @@ import lombok.RequiredArgsConstructor;
 public class OrderService {
 
     private final OrderRepository orderRepository;
+    private final WebClient webClient;
     
     public void placeOrder(OrderRequest orderRequest) {
         Order order = new Order();
@@ -33,8 +35,18 @@ public class OrderService {
             .collect(Collectors.toList());
         
         order.setOrderLineItemsList(orderLineItems);
+        
+        // call inventory service and place order if product present in stock
+       Boolean result = webClient.get().uri("http://localhost:8084/api/inventory").
+        retrieve().bodyToMono(Boolean.class).block();
+       if(result) {
         orderRepository.save(order);
         }
+       else {
+		throw new IllegalArgumentException("produc not in stock please try again later");
+       }
+        }
+	
     }
 
     private OrderLineItems mapToEntity(OrderLineItemsDto orderLineItemsDto) {

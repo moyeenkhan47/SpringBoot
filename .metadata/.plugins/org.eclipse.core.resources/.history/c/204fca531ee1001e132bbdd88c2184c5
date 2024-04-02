@@ -1,5 +1,0 @@
-package com.product.service.dto;
-
-public class Product_Request {
-
-}
